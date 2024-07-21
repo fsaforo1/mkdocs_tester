@@ -1,0 +1,15 @@
+site_name: Sample Project
+theme: material
+plugins:
+  - search
+  - mkdocs-jupyter
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Advanced Topics: advanced-topics.ipynb
+  - API Reference: api-reference.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
