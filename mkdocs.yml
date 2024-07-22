@@ -1,4 +1,6 @@
 site_name: Sample Project
+site_dir: docs
+docs_dir: _docs
 theme:
   name: material
   features:
